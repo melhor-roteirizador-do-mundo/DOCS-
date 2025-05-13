@@ -1,37 +1,43 @@
- Requisitos Funcionais 
-  Cadastro de entregas
-  Cálculo de rotas otimizadas
-  Cadastro de entregadores
-  Cadastro de Empresa
-  Relatorios(custos, distancia, tempos)
-  Monitoramento de entregas
-  Integração com APIs de mapas
-  Gestão de horários de entrega
-  Suporte a múltiplos idiomas
+# Roteirizador de Entregas
 
-  
+## Requisitos Funcionais
+- Cadastro de entregas
+- Cálculo de rotas otimizadas
+- Cadastro de entregadores
+- Cadastro de empresas
+- Relatórios (custos, distância, tempos)
+- Monitoramento de entregas
+- Integração com APIs de mapas
+- Gestão de horários de entrega
+- Suporte a múltiplos idiomas
 
-Dados necessários
-  Dados do entregador (nome, contato, veículo, disponibilidade).
-  Dados do cliente (nome, endereço, contato).
-  Capacidade de carga dos veículos (peso e volume).
-  Histórico de entregas (para relatórios e análises).
+---
 
+## Dados Necessários
+- **Entregador**: Nome, contato, veículo, disponibilidade.
+- **Cliente**: Nome, endereço, contato.
+- **Veículos**: Capacidade de carga (peso e volume).
+- **Histórico de entregas**: Para relatórios e análises.
 
-Arquitetura e tecnologias
-  Backend
+---
 
-  Frontend 
+## Arquitetura e Tecnologias
+### Backend
+- FastAPI
 
-  DB 
+### Frontend
+- (Especificar tecnologia)
 
-Outros 
-  - FastAPI
-  - PostgreSQL
-  - Redis
-  - Docker
-  - Docker Compose
-  - Swagger
+### Banco de Dados
+- PostgreSQL
+- Redis
 
+### Outros
+- Docker
+- Docker Compose
+- Swagger
 
-CEP, 
+---
+
+## CEP
+- (Especificar detalhes relacionados ao uso de CEP, se necessário)
